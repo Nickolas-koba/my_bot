@@ -3,7 +3,7 @@
 
     <xacro:include filename="inertial_macros.xacro"/>
 
-    <!-- propriedades do robo (físico para o endereçamento dods dados
+    <!-- (propriedades do robo (físico para o endereçamento dods dados))
     <xacro:property name="chassis_length" value="0.335"/>
     <xacro:property name="chassis_width" value="0.265"/>
     <xacro:property name="chassis_height" value="0.138"/>
@@ -49,7 +49,7 @@
 
     <!-- CHASSIS LINK -->
 
-    <!--  Exemplo das mudanças necessárias
+    <!--  (Exemplo das mudanças necessárias)
 
      <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
@@ -79,7 +79,7 @@
     <gazebo reference="chassis">
         <material>Gazebo/Orange</material>
     </gazebo>
-    
+
     -->
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
